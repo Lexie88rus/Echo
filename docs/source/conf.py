@@ -212,3 +212,10 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
+
+# Exclude imports
+autodoc_mock_imports = [
+    "torch",
+    "Keras",
+    "tensorflow"
+]
